@@ -21,7 +21,7 @@
 
 
 		<classes>
-			<class name="main.Grouping">
+			<class name="xmlDriven.Grouping">
 			</class>
 		</classes>
 

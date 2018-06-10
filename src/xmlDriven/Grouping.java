@@ -1,4 +1,4 @@
-package main;
+package xmlDriven;
 import org.testng.annotations.Test;
 
 public class Grouping {

@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class Overview {
-  @Test(dataProvider = "dp")
+  @Test(dataProvider = "create")
   public void Test3(Integer n, String s) {
 	  System.out.println(n+"--"+s);
   }
@@ -77,7 +77,7 @@ public class Overview {
   }
 
 
-  @DataProvider
+  @DataProvider(name = "create")
   public Object[][] dp() {
     return new Object[][] {
       new Object[] { 1, "a" },

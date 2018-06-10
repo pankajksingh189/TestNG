@@ -10,7 +10,7 @@
 		</groups>
 
 		<classes>
-			<class name="main.Grouping" />
+			<class name="xmlDriven.Grouping" />
 		</classes>
 	</test>
 </suite>
