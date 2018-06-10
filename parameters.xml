@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1">
+	<parameter name="first-name" value="Pankaj" />
+	<!--  <parameter name="last-name" value="Kumar" />  !-->
+	<test name="Grouping test">
+		<classes>
+			<class name="main.ParameterTestNg" />
+		</classes>
+	</test>
+</suite>

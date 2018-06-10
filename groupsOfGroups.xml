@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+		<groups>
+			<define name="regression">
+				<include name="Car" />
+				<include name="Sedan" />
+			</define>
+
+			<define name="smoke">
+				<include name="Bus" />
+				<include name="Train" />
+			</define>
+
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="main.Grouping">
+			</class>
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
