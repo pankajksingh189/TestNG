@@ -6,8 +6,8 @@ import org.testng.asserts.SoftAssert;
 
 public class SoftAssertion {
 
-	
-// Executes all line of code
+
+	// Executes all line of code
 	@Test(priority=1)
 	public void testSoftAssert() {
 		SoftAssert sf=new SoftAssert();
@@ -28,5 +28,5 @@ public class SoftAssertion {
 		Assert.assertTrue(false, name);
 		System.out.println("First assertion completed.");
 	}
-	
-	}
+
+}
