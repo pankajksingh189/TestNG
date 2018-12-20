@@ -6,6 +6,8 @@ public class DataProviderTestNG {
 
 	//This method will provide data to any test method that declares that its Data Provider
 	//is named "test1"
+	// Check testNG documentation
+	
 	@org.testng.annotations.DataProvider(name = "test1")
 	public Object[][] createData1() {
 		return new Object[][] {
